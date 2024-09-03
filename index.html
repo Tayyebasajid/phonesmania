@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phones</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+      html{
+        scroll-behavior: smooth;
+        scroll-padding-top: 4.5rem;
+
+      }
+    </style>
+</head>
+<body class="bg-fuchsia-100 h-screen">
+    <nav class="  w-full h-16 shadow-2xl bg-purple-800  text-white flex justify-between  items-center px-4 md:px-4 fixed top-0 left-0 right-0">
+        <div class="text-2xl font-bold text-white font-custom">Phones<span class="text-yellow-500">Mania</span></div>
+        <ul class="md:flex space-x-8 font-bold text-xl hidden font-custom ">
+            <li class="cursor-pointer hover:text-yellow-500"><a href="#home">Home</a></li>
+            <li class="cursor-pointer hover:text-yellow-500"><a href="#about">About</a></li>
+            <li class="cursor-pointer hover:text-yellow-500"><a href="#catalogue">Catalogue</a></li>
+
+            <li class="cursor-pointer  hover:text-yellow-500"><a href="#contact">Contact</a></li>
+        </ul>
+        <button class=" cursor-pointer hidden md:block text-purple-900 bg-yellow-500 px-3 py-2 font-custom font-bold hover:bg-white rounded-lg">Login/SignUp</button>
+    <button class="md:hidden text-4xl text-white font-bold font-custom"><a href="">&#8801;</a></button>
+    </nav>
+
+
+    <!--navbar ends here-->
+
+
+    <section class=" flex flex-col md:flex-row justify-center items-center mx-auto  p-8 md:flex  h-auto md:p-10" id="home">
+        <div class="mt-20">
+<div class="text-2xl md:mt-14  font-bold md:text-5xl flex font-custom text-purple-800">
+    The Best Phones in Town
+    
+
+</div>
+<p class="md:mx-2 md:max-w-[90%] text-sm md:text-xl font-custom text-slate-600 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque fugit, deserunt adipisci laboriosam exercitationem odit pariatur quo iure tenetur corrupti, ipsa at id, perspiciatis officia!</p>
+<ul class="list-none text-2xl px-2 hidden md:block font-custom text-purple-800 font-bold">
+    <li class="p-3"><i class="fa-regular fa-thumbs-up text-yellow-500  text-3xl"></i> Condition 10/10</li>
+    <li class="p-3"><i class="fa-solid fa-box text-yellow-500 text-3xl"></i> Safe Packaging</li>
+    <li class="p-3"><i class="fa-solid fa-truck-fast text-yellow-500 text-3xl"></i> Delivery Free And Fast</li>
+</ul>
+        <div class="button font-custom mx-4">
+            <button class="bg-yellow-500 text-white md:text-2xl hover:bg-purple-800  px-4 py-3 md:px-5 md:py-4 rounded-2xl my-4">Buy Now</button>
+            <button class="bg-yellow-500 mx-2 md:text-2xl  hover:bg-purple-800 px-4 py-3 text-white md:px-5 md:py-4 rounded-2xl">Contact Us</button>
+
+        </div>
+</div>
+<div class=" flex items-center flex-shrink-0 my-4 md:my-0">
+    <img src="phone.png" class="h-60 md:h-[35rem] mt-10" alt="">
+</div>
+</section>
+<!--home section ends here-->
+
+<section class="bg-purple-100 h-auto p-8 md:p-14 shadow-lg " id="about">
+    <div class="text-center">
+        <h3 class="text-2xl md:text-5xl font-bold font-custom tracking-wider text-purple-800">Why Choose Us?</h3>
+    <h1 class="text-3xl md:text-7xl font-extrabold md:my-10 my-2 font-custom text-yellow-500">About Us</h1>
+    </div>
+    <div class="md:flex">
+        <div class="md:w-1/2 w-full md:my-32 my-0 md:px-5 px-0 font-custom">
+            <div class="md:text-4xl text-2xl  py-2 md:py-5 font-extrabold text-yellow-500">
+                 <span class="text-purple-800">MOBILE</span>
+                 SHOPPING!
+    
+            </div>
+           <p class="md:text-xl font-custom text-slate-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat tempore dicta dignissimos aliquid quia iusto ratione ad, quibusdam iste et molestiae esse? Hic suscipit reprehenderit architecto deserunt a consectetur nemo!</p>
+           <p class="text-xl hidden md:block mb-5 font-custom text-slate-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta voluptatem voluptatum fugit recusandae consequatur quos corrupti minus earum? Vel amet ratione repudiandae veniam facere sequi ex sapiente temporibus maxime iure?</p>
+            <button class="bg-yellow-500 mx-2 hover:bg-purple-800 md:font-bold md:text-xl mt-5 font-custom  text-white md:px-5 md:py-3 px-3 py-2 rounded-2xl">Learn More</button>
+
+        </div>
+        <div> 
+            <img class="md:h-[35rem] h-64 md:my-12 my-5 px:0 md:px-20" src="about.png" alt="">
+        </div>
+        
+    </div>
+   
+
+
+
+</section>
+
+<!--catalogue-->
+<section class="p-4 md:p-8 lg:p-12 h-auto " id="catalogue">
+    <div class="text-center">
+        <h3 class="text-2xl md:text-5xl font-bold font-custom tracking-wider text-purple-800 capitalize">our best selling </h3>
+    <h1 class="text-3xl md:text-7xl font-extrabold md:my-10 my-2 font-custom text-yellow-500 uppercase">smart phones</h1>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 ">
+      <!-- Card 1 -->
+      <div class="bg-purple-50 rounded-lg shadow-lg overflow-hidden ">
+        <img src="phone1.jpg" alt="Phone 1" class=" object-cover h-[40%] w-full">
+        <div class="p-4 font-custom">
+          <h3 class="text-xl font-bold text-gray-800  ">Phone Model 1</h3>
+          <p class="text-gray-600 mt-2">Pkr</p>
+          <ul class="mt-4 space-y-2">
+            <li class="flex items-center">
+              <i class="fa-regular fa-thumbs-up text-yellow-500 text-xl"></i>
+              <span class="ml-3">Condition: New</span>
+            </li>
+            <li class="flex items-center">
+              <i class="fa-solid fa-box text-yellow-500 text-xl"></i>
+              <span class="ml-3">Safe Packaging</span>
+            </li>
+            <li class="flex items-center">
+              <i class="fa-solid fa-truck-fast text-yellow-500 text-xl"></i>
+              <span class="ml-3">Free Delivery</span>
+            </li>
+          </ul>
+          <button class="mt-6 bg-purple-800 text-white px-4 py-2 rounded-md hover:bg-yellow-500">Buy Now</button>
+        </div>
+      </div>
+  
+      <!-- Card 2 -->
+      <div class="bg-purple-50 rounded-lg shadow-lg overflow-hidden">
+        <img src="phone2.jpg" alt="Phone 2" class=" object-cover h-[40%] w-full">
+        <div class="p-4 font-custom">
+          <h3 class="text-xl font-bold text-gray-800">Phone Model 2</h3>
+          <p class="text-gray-600 mt-2">Pkr</p>
+          <ul class="mt-4 space-y-2">
+            <li class="flex items-center">
+              <i class="fa-regular fa-thumbs-up text-yellow-500 text-xl"></i>
+              <span class="ml-3">Condition: New</span>
+            </li>
+            <li class="flex items-center">
+              <i class="fa-solid fa-box text-yellow-500 text-xl"></i>
+              <span class="ml-3">Safe Packaging</span>
+            </li>
+            <li class="flex items-center">
+              <i class="fa-solid fa-truck-fast text-yellow-500 text-xl"></i>
+              <span class="ml-3">Free Delivery</span>
+            </li>
+          </ul>
+          <button class="mt-6 bg-purple-800 text-white px-4 py-2 rounded-md hover:bg-yellow-500">Buy Now</button>
+        </div>
+      </div>
+  
+      <!-- Card 3 -->
+      <div class="bg-purple-50 rounded-lg shadow-lg overflow-hidden">
+        <img src="phone3.webp" alt="Phone 3" class=" object-cover h-[40%] w-full">
+        <div class="p-4 font-custom">
+          <h3 class="text-xl font-bold text-gray-800">Phone Model 3</h3>
+          <p class="text-gray-600 mt-2">Pkr</p>
+          <ul class="mt-4 space-y-2">
+            <li class="flex items-center">
+              <i class="fa-regular fa-thumbs-up text-yellow-500 text-xl"></i>
+              <span class="ml-3">Condition: New</span>
+            </li>
+            <li class="flex items-center">
+              <i class="fa-solid fa-box text-yellow-500 text-xl"></i>
+              <span class="ml-3">Safe Packaging</span>
+            </li>
+            <li class="flex items-center">
+              <i class="fa-solid fa-truck-fast text-yellow-500 text-xl"></i>
+              <span class="ml-3">Free Delivery</span>
+            </li>
+          </ul>
+          <button class="mt-6 bg-purple-800 text-white px-4 py-2 rounded-md hover:bg-yellow-500">Buy Now</button>
+        </div>
+      </div>
+  
+      <!-- Card 4 -->
+      <div class="bg-purple-50 rounded-lg shadow-lg overflow-hidden">
+        <img src="phone5.jpg" alt="Phone 4" class=" object-cover h-[40%] w-full">
+        <div class="p-4 font-custom">
+          <h3 class="text-xl font-bold text-gray-800">Phone Model 4</h3>
+          <p class="text-gray-600 mt-2">Pkr</p>
+          <ul class="mt-4 space-y-2">
+            <li class="flex items-center">
+              <i class="fa-regular fa-thumbs-up text-yellow-500 text-xl"></i>
+              <span class="ml-3">Condition: New</span>
+            </li>
+            <li class="flex items-center">
+              <i class="fa-solid fa-box text-yellow-500 text-xl"></i>
+              <span class="ml-3">Safe Packaging</span>
+            </li>
+            <li class="flex items-center">
+              <i class="fa-solid fa-truck-fast text-yellow-500 text-xl"></i>
+              <span class="ml-3">Free Delivery</span>
+            </li>
+          </ul>
+          <button class="mt-6 bg-purple-800 text-white px-4 py-2 rounded-md hover:bg-yellow-500">Buy Now</button>
+        </div>
+      </div>
+
+      <!--card-5-->
+      <div class="bg-purple-50 rounded-lg shadow-lg overflow-hidden">
+        <img src="phone6.avif" alt="Phone 4" class=" object-cover h-[40%] w-full">
+        <div class="p-4 font-custom">
+          <h3 class="text-xl font-bold text-gray-800">Phone Model 5</h3>
+          <p class="text-gray-600 mt-2">Pkr</p>
+          <ul class="mt-4 space-y-2">
+            <li class="flex items-center">
+              <i class="fa-regular fa-thumbs-up text-yellow-500 text-xl"></i>
+              <span class="ml-3">Condition: New</span>
+            </li>
+            <li class="flex items-center">
+              <i class="fa-solid fa-box text-yellow-500 text-xl"></i>
+              <span class="ml-3">Safe Packaging</span>
+            </li>
+            <li class="flex items-center">
+              <i class="fa-solid fa-truck-fast text-yellow-500 text-xl"></i>
+              <span class="ml-3">Free Delivery</span>
+            </li>
+          </ul>
+          <button class="mt-6 bg-purple-800 text-white px-4 py-2 rounded-md hover:bg-yellow-500">Buy Now</button>
+        </div>
+      </div>
+
+      <!--card-6-->
+      <div class="bg-purple-50 rounded-lg shadow-lg overflow-hidden">
+        <img src="phone7.jpg" alt="Phone 4" class=" object-cover h-[40%] w-full">
+        <div class="p-4 font-custom">
+          <h3 class="text-xl font-bold text-gray-800">Phone Model 6</h3>
+          <p class="text-gray-600 mt-2">Pkr</p>
+          <ul class="mt-4 space-y-2">
+            <li class="flex items-center">
+              <i class="fa-regular fa-thumbs-up text-yellow-500 text-xl"></i>
+              <span class="ml-3">Condition: New</span>
+            </li>
+            <li class="flex items-center">
+              <i class="fa-solid fa-box text-yellow-500 text-xl"></i>
+              <span class="ml-3">Safe Packaging</span>
+            </li>
+            <li class="flex items-center">
+              <i class="fa-solid fa-truck-fast text-yellow-500 text-xl"></i>
+              <span class="ml-3">Free Delivery</span>
+            </li>
+          </ul>
+          <button class="mt-6 bg-purple-800 text-white px-4 py-2 rounded-md hover:bg-yellow-500">Buy Now</button>
+        </div>
+      </div>
+
+      <!--card-7-->
+      <div class="bg-purple-50 rounded-lg shadow-lg overflow-hidden">
+        <img src="phone8.jpg" alt="Phone 4" class=" object-cover h-[40%] w-full">
+        <div class="p-4 font-custom">
+          <h3 class="text-xl font-bold text-gray-800">Phone Model 7</h3>
+          <p class="text-gray-600 mt-2">Pkr</p>
+          <ul class="mt-4 space-y-2">
+            <li class="flex items-center">
+              <i class="fa-regular fa-thumbs-up text-yellow-500 text-xl"></i>
+              <span class="ml-3">Condition: New</span>
+            </li>
+            <li class="flex items-center">
+              <i class="fa-solid fa-box text-yellow-500 text-xl"></i>
+              <span class="ml-3">Safe Packaging</span>
+            </li>
+            <li class="flex items-center">
+              <i class="fa-solid fa-truck-fast text-yellow-500 text-xl"></i>
+              <span class="ml-3">Free Delivery</span>
+            </li>
+          </ul>
+          <button class="mt-6 bg-purple-800 text-white px-4 py-2 rounded-md hover:bg-yellow-500">Buy Now</button>
+        </div>
+      </div>
+
+      <!--card-8-->
+      <div class="bg-purple-50 rounded-lg shadow-lg overflow-hidden">
+        <img src="phone9.jpeg" alt="Phone 4" class=" object-cover h-[40%] w-full">
+        <div class="p-4 font-custom">
+          <h3 class="text-xl font-bold text-gray-800">Phone Model 8</h3>
+          <p class="text-gray-600 mt-2">Pkr</p>
+          <ul class="mt-4 space-y-2">
+            <li class="flex items-center">
+              <i class="fa-regular fa-thumbs-up text-yellow-500 text-xl"></i>
+              <span class="ml-3">Condition: New</span>
+            </li>
+            <li class="flex items-center">
+              <i class="fa-solid fa-box text-yellow-500 text-xl"></i>
+              <span class="ml-3">Safe Packaging</span>
+            </li>
+            <li class="flex items-center">
+              <i class="fa-solid fa-truck-fast text-yellow-500 text-xl"></i>
+              <span class="ml-3">Free Delivery</span>
+            </li>
+          </ul>
+          <button class="mt-6 bg-purple-800 text-white px-4 py-2 rounded-md hover:bg-yellow-500">Buy Now</button>
+        </div>
+      </div>
+    
+      </div>
+
+   
+  </section>
+  
+
+  <!--Contact -->
+
+
+  <section class="bg-pink-100 h-auto p-4 md:p-8 lg:p-12" id="contact">
+
+    <div class="text-center">
+      <h3 class="text-2xl md:text-5xl font-bold font-custom tracking-wider text-purple-800 capitalize">for more information</h3>
+  <h1 class="text-3xl md:text-7xl font-extrabold md:my-10 my-2 font-custom text-yellow-500 uppercase">contact us</h1>
+  </div>
+    <div class="max-w-md mx-auto bg-white rounded-lg shadow-lg p-6 font-custom ">
+      <h2 class="text-2xl font-bold mb-6 text-center text-purple-800">Contact Us</h2>
+      <form action="#" class="space-y-4">
+        
+        <div>
+          <label class="block text-sm font-medium text-gray-700">Name</label>
+          <input type="text" name="name" required class="mt-1 block w-full px-4 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-purple-800 focus:border-purple-800">
+        </div>
+        
+        <div>
+          <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+          <input type="email" id="email" name="email" required class="mt-1 block w-full px-4 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-purple-800 focus:border-purple-800">
+        </div>
+        
+        <div>
+          <label for="subject" class="block text-sm font-medium text-gray-700">Subject</label>
+          <input type="text" id="subject" name="subject" required class="mt-1 block w-full px-4 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-purple-800 focus:border-purple-800">
+        </div>
+        
+        <div>
+          <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+          <textarea id="message" name="message" rows="4" required class="resize-none mt-1 block w-full px-4 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-purple-800 focus:border-purple-800"></textarea>
+        </div>
+        
+        <div class="flex justify-center">
+          <button type="submit" class="bg-purple-800 text-white px-4 py-2 rounded-md shadow-sm hover:bg-yellow-500">
+            Send Message
+          </button>
+        </div>
+      </form>
+    </div>
+
+  
+
+  </section>
+  
+</body>
+</html>
